@@ -1,7 +1,8 @@
 pipeline {
-   agent any {
+   agent any
+   stages { 
       stage('Build') {
-       steps{
+        steps{
              sh 'echo "Build completed."'
         }
       }
